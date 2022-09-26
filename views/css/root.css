@@ -1,0 +1,21 @@
+:root{
+    --lightBlue-color:#428bca;
+    --green-color:#3ad699;
+    --lighterBlue-color:#66CCFF;
+    --blue-color:#003366;
+    --gray-color:#444444;
+    --darkBlue-color:#2F4F4F;
+    --white-color:#EEEEEE;
+    --fadedblue-color:#cee9ea;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    text-decoration: none;
+}
+/* a{
+    color: var(--gray-color);
+} */

@@ -1,0 +1,108 @@
+.div9{
+    display: flex;
+    /* margin-top: 20px; */
+    flex-direction: column;
+    /* height: 420px; */
+    background-image: url(/views/images/19366.jpg);
+    color: var(--white-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 50px 0px 50px;
+    gap: 20px;
+    width: 100%;
+}
+.div10{
+    display: flex;
+    gap: 50px;
+    color: var(--lightBlue-color);
+}
+.div10 > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.div10 > div > div{
+    display: flex;
+    flex-direction: column;
+}
+.sp9{
+    font-size: 15px;
+    font-weight: bold;
+}
+.sp10{
+    color: var(--gray-color);
+    font-size: 15px;
+}
+.div11{
+    display: flex;
+    /* color: white; */
+    width: 100%;
+    gap: 200px;
+    justify-content: space-between;
+    
+}
+.div11 >  div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+.div12{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sp11{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--lightBlue-color);
+    border-bottom: 3px solid var(--green-color);
+    width: fit-content;
+    padding-bottom: 5px;
+}
+.sp12{
+    word-spacing: 2px;
+    line-height: 25px;
+    color: var(--gray-color);
+}
+.div13{
+    display: flex;
+    gap: 30px;
+}
+.div13 > div{
+    display: flex;
+    flex-direction: column;
+    color: var(--gray-color);
+    gap: 10px;
+}
+.div13 > div > a{
+    color: var(--gray-color);
+}
+.fo1{
+    /* width: 80%; */
+    /* margin: 0px auto; */
+    border-top: 1px solid var(--green-color);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--lightBlue-color);
+    /* text-align: center; */
+}
+/* @media only screen and (max-width:1090px){
+    .div10{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .sp9{
+        font-size: 20px;
+    }
+    .div11{
+        width: 100%;
+    }
+    .div71{
+        gap: 20px;
+    }
+} */

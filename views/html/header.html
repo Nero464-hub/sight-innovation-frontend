@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight-Innovation</title>
+    <link rel="stylesheet" href="/views/css/header.css">
+    <link rel="stylesheet" href="/views/css/root.css">
+</head>
+<body>
+    <nav id="nav">
+        <div>
+            <a href="/" class="a1">
+                <img src="/views/images/SI logo5.png" class="img1" alt="">
+                <span class="sp1">SIGHT-INNOVATION</span>
+            </a>
+        </div>
+        <div class="div1">
+            <span class="times" id="times" onclick="handleClear()">&times</span>
+            <ul class="ddd">
+                <li class="dropdown">
+                    <span href="" class="dropbtn a1" onclick="handleDropDown(1)">Smart Devices</span>
+                    <div class="ddcontent">
+                        <a href="/smac" >Smac</a>
+                        <a href="/s-switch" >S-Switch</a>
+                        <a href="/Devfi" >DevFi</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span href="" class="dropbtn a1" onclick="handleDropDown(2)">Energy</span>
+                    <div class="ddcontent">
+                        <a href="/smart">Smart Meter</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span href="" class="dropbtn a1" onclick="handleDropDown(3)">Services</span>
+                    <div class="ddcontent">
+                        <a href="/web" >Website & Application development</a>
+                        <a href="/electronics" >Electronics Design, Construction & Repairs</a>
+                        <a href="/solar" >Solar Inverter & CCTV Installation & Repairs</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span href="" class="dropbtn a1" onclick="handleDropDown(4)">Support</span>
+                    <div class="ddcontent">
+                        <a href="" >Smart Devices</a>
+                        <a href="" >Energy</a>
+                        <a href="" >Education</a>
+                        <a href="" >Programming</a>
+                    </div>
+                </li>
+            </ul>
+            <span class="spp" onclick="handleDropDown(5)"></span>
+        </div>
+        <span class="ham" onclick="handleShow()">☰</span>
+    </nav>
+    <script src="/views/js/header.js"></script>
+</body>
+</html>
