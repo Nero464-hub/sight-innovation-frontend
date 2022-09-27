@@ -265,7 +265,7 @@
     }
 }
 .animate-div3{
-    animation: slide3 1s forwards;
+    animation: slide3 .5s forwards;
 }
 @keyframes slide4 {
     0%{
@@ -276,7 +276,7 @@
     }
 }
 .animate-div4{
-    animation: slide4 1s forwards;
+    animation: slide4 .5s forwards;
 }
 @keyframes ani {
     0%{
